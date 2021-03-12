@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		97BE99CC25FB7C8F00ACEF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99CB25FB7C8F00ACEF87 /* AppDelegate.swift */; };
 		97BE99CE25FB7C8F00ACEF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99CD25FB7C8F00ACEF87 /* SceneDelegate.swift */; };
-		97BE99D025FB7C8F00ACEF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99CF25FB7C8F00ACEF87 /* ViewController.swift */; };
 		97BE99D325FB7C8F00ACEF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BE99D125FB7C8F00ACEF87 /* Main.storyboard */; };
 		97BE99D625FB7C8F00ACEF87 /* Popup_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99D425FB7C8F00ACEF87 /* Popup_test.xcdatamodeld */; };
 		97BE99D825FB7C9000ACEF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BE99D725FB7C9000ACEF87 /* Assets.xcassets */; };
 		97BE99DB25FB7C9000ACEF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BE99D925FB7C9000ACEF87 /* LaunchScreen.storyboard */; };
+		97BE99E425FB7D1400ACEF87 /* PopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BE99E325FB7D1400ACEF87 /* PopUp.storyboard */; };
+		97BE99E825FB7F6300ACEF87 /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99E725FB7F6300ACEF87 /* CustomPopUpViewController.swift */; };
+		97BE99EC25FB80CB00ACEF87 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BE99EB25FB80CB00ACEF87 /* WebKit.framework */; };
+		97BE99F025FB840800ACEF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE99EF25FB840800ACEF87 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97BE99C825FB7C8F00ACEF87 /* Popup_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popup_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE99CB25FB7C8F00ACEF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97BE99CD25FB7C8F00ACEF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97BE99CF25FB7C8F00ACEF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97BE99D225FB7C8F00ACEF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97BE99D525FB7C8F00ACEF87 /* Popup_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Popup_test.xcdatamodel; sourceTree = "<group>"; };
 		97BE99D725FB7C9000ACEF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97BE99DA25FB7C9000ACEF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97BE99DC25FB7C9000ACEF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97BE99E325FB7D1400ACEF87 /* PopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUp.storyboard; sourceTree = "<group>"; };
+		97BE99E725FB7F6300ACEF87 /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewController.swift; sourceTree = "<group>"; };
+		97BE99EB25FB80CB00ACEF87 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		97BE99EF25FB840800ACEF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BE99EC25FB80CB00ACEF87 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,7 @@
 			children = (
 				97BE99CA25FB7C8F00ACEF87 /* Popup_test */,
 				97BE99C925FB7C8F00ACEF87 /* Products */,
+				97BE99EA25FB80CA00ACEF87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +68,24 @@
 			children = (
 				97BE99CB25FB7C8F00ACEF87 /* AppDelegate.swift */,
 				97BE99CD25FB7C8F00ACEF87 /* SceneDelegate.swift */,
-				97BE99CF25FB7C8F00ACEF87 /* ViewController.swift */,
 				97BE99D125FB7C8F00ACEF87 /* Main.storyboard */,
+				97BE99EF25FB840800ACEF87 /* ViewController.swift */,
 				97BE99D725FB7C9000ACEF87 /* Assets.xcassets */,
+				97BE99E325FB7D1400ACEF87 /* PopUp.storyboard */,
 				97BE99D925FB7C9000ACEF87 /* LaunchScreen.storyboard */,
 				97BE99DC25FB7C9000ACEF87 /* Info.plist */,
 				97BE99D425FB7C8F00ACEF87 /* Popup_test.xcdatamodeld */,
+				97BE99E725FB7F6300ACEF87 /* CustomPopUpViewController.swift */,
 			);
 			path = Popup_test;
+			sourceTree = "<group>";
+		};
+		97BE99EA25FB80CA00ACEF87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97BE99EB25FB80CB00ACEF87 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +148,7 @@
 				97BE99DB25FB7C9000ACEF87 /* LaunchScreen.storyboard in Resources */,
 				97BE99D825FB7C9000ACEF87 /* Assets.xcassets in Resources */,
 				97BE99D325FB7C8F00ACEF87 /* Main.storyboard in Resources */,
+				97BE99E425FB7D1400ACEF87 /* PopUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BE99D025FB7C8F00ACEF87 /* ViewController.swift in Sources */,
+				97BE99F025FB840800ACEF87 /* ViewController.swift in Sources */,
 				97BE99CC25FB7C8F00ACEF87 /* AppDelegate.swift in Sources */,
 				97BE99D625FB7C8F00ACEF87 /* Popup_test.xcdatamodeld in Sources */,
 				97BE99CE25FB7C8F00ACEF87 /* SceneDelegate.swift in Sources */,
+				97BE99E825FB7F6300ACEF87 /* CustomPopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
